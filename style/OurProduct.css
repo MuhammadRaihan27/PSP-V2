@@ -52,26 +52,37 @@
     width: 12rem;
 }
 
-@media screen and (max-width: 768px) {
-    #our-product .slide .item>img {
-        width: 13rem;
-    }
+
+/* Product IMAGE */
+
+#our-product .slide .item>.AMH,
+#our-product .slide .item>.SENQCIA {
+    width: 15rem;
+}
+
+#our-product .slide .item>.RULMEGA {
+    width: 8rem;
+}
+
+#our-product .slide .item>.BANDO,
+#our-product .slide .item>.MITSUBISI,
+#our-product .slide .item>.RIELLO {
+    width: 8.5rem;
+}
+
+#our-product .slide .item>.NORD,
+#our-product .slide .item>.ABB {
+    width: 9rem;
+}
+
+#our-product .slide .item>.NTN {
+    width: 12rem;
 }
 
 @media screen and (max-width: 520px) {
-    #our-product .slide .item>img {
-        width: 20rem;
-    }
-}
-
-@media screen and (max-width:412px) {
-    #our-product .slide .item>img {
-        width: 16rem;
-    }
-}
-
-@media screen and (max-width:333px) {
-    #our-product .slide .item>img {
-        width: 14rem;
+    #our-product .slide .item>.BANDO,
+    #our-product .slide .item>.MITSUBISI,
+    #our-product .slide .item>.RIELLO {
+        width: 9rem;
     }
 }

@@ -129,6 +129,10 @@
  .flex-end {
      justify-content: flex-end;
  }
+ 
+ .cikampek {
+     display: none;
+ }
  /* ------- Info Service & Product ------- */
  
  @media screen and (max-width: 1199px) {

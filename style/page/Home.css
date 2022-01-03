@@ -604,6 +604,12 @@ body {
     }
 }
 
+@media screen and (max-width: 767px) {
+    #sec-1 .excess-group {
+        margin: 0 0;
+    }
+}
+
 @media screen and (max-width: 575px) {
     #sec-3 {
         padding: 1.5rem;

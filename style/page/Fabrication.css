@@ -6,6 +6,10 @@ body {
     margin-top: 8.5rem;
 }
 
+#fabrication img {
+    border-radius: 10px;
+}
+
 #fabrication .heading-info {
     margin: 4rem 0;
 }

@@ -133,7 +133,7 @@ if (window.innerWidth > 450) {
     imgFabrication.forEach((info, i) => {
         info.dataset.aos = "zoom-out-down";
         info.dataset.aosDelay = i * 100;
-        info.dataset.aosDuration = 1000;
+        info.dataset.aosDuration = 600;
     })
 
     imgService.forEach((info, i) => {

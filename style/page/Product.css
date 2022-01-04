@@ -41,6 +41,13 @@ body {
     width: 100%;
 }
 
+@media screen and (max-width: 1199px) {
+    .slide-dust .img2,
+    .slide-dust .img3 {
+        width: 450px;
+    }
+}
+
 @media screen and (max-width: 991px) {
     #product {
         margin-top: 8.5rem;
@@ -107,5 +114,12 @@ body {
     .slide-dust .img2,
     .slide-dust .img3 {
         width: 260px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .slide-dust .img2,
+    .slide-dust .img3 {
+        width: 245px;
     }
 }

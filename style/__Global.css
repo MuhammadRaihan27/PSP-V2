@@ -159,6 +159,9 @@
          width: 30rem;
          background-position: 0 0;
      }
+     #hero .hero-logo {
+         width: 15rem;
+     }
      #hero .hero-title {
          margin-left: auto;
      }
@@ -194,6 +197,7 @@
  
  @media screen and (max-width: 496px) {
      #hero .hero-logo {
+         top: 4rem;
          right: 1rem;
      }
      #hero .hero-info {

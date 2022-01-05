@@ -9,7 +9,7 @@ body {
 }
 
 .bg1 {
-    background: url("../../assets/img/Home/Carousel/Picture1.png");
+    background: url("../../assets/img/Home/Carousel/sld1.png");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -19,7 +19,7 @@ body {
 }
 
 .bg2 {
-    background: url("../../assets/img/Home/Carousel/Picture2.jpg");
+    background: url("../../assets/img/Home/Carousel/sld2.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -29,7 +29,7 @@ body {
 }
 
 .bg3 {
-    background: url("../../assets/img/Home/Carousel/Picture3.png");
+    background: url("../../assets/img/Home/Carousel/sld3.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -39,7 +39,67 @@ body {
 }
 
 .bg4 {
-    background: url("../../assets/img/Home/Carousel/Picture4.png");
+    background: url("../../assets/img/Home/Carousel/sld4.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg5 {
+    background: url("../../assets/img/Home/Carousel/sld5.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg6 {
+    background: url("../../assets/img/Home/Carousel/sld6.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg7 {
+    background: url("../../assets/img/Home/Carousel/sld7.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg8 {
+    background: url("../../assets/img/Home/Carousel/sld8.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg9 {
+    background: url("../../assets/img/Home/Carousel/sld9.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg10 {
+    background: url("../../assets/img/Home/Carousel/sld10.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -117,7 +177,7 @@ body {
 }
 
 #sec-1 .heading-info {
-    font-size: var(--fs-mid);
+    font-size: var(--fs-1rem);
     color: var(--yellow2);
 }
 
@@ -163,7 +223,12 @@ body {
     flex-direction: column;
 }
 
+#sec-1 .excess-item {
+    width: 100%;
+}
+
 #sec-1 .excess-item .heading {
+    position: relative;
     display: flex;
     align-items: center;
     margin-bottom: 6px;
@@ -171,7 +236,7 @@ body {
 
 #sec-1 .excess-item .heading h3 {
     font-weight: var(--fw-bold2);
-    font-size: var(--fs-1rem);
+    font-size: 1.2rem;
     margin: 0 10px;
 }
 
@@ -180,10 +245,9 @@ body {
     height: 10px;
     border-radius: 50%;
     background-color: red;
-}
-
-#sec-1 .excess-item .deskription {
-    margin-left: 1.4rem;
+    position: absolute;
+    top: 0.4rem;
+    left: -0.5rem;
 }
 
 
@@ -382,11 +446,9 @@ body {
 /* Col 2 */
 
 #sec-3 .img {
-    background: url("/assets/img/Home/Our Team/team.png") no-repeat center;
-    background-size: cover;
     object-fit: cover;
-    height: 35rem;
-    background-position: 0 -1.5px;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -532,11 +594,16 @@ body {
 @media screen and (max-width: 1199px) {
     #sec-1 .excess-group {
         padding-top: 1.5rem;
+        margin-top: 6rem;
         height: max-content;
         margin-left: 2rem;
     }
     #sec-1 .excess-item {
         margin-top: 1.7rem;
+    }
+    #sec-1 img {
+        width: 17rem;
+        margin-top: 5.7rem;
     }
     #sec-3 .excess-item h4 {
         font-size: var(--fs-1rem);
@@ -560,8 +627,9 @@ body {
     #sec-1 .excess-group {
         align-items: flex-start;
         padding-top: 2rem;
+        margin-top: 0;
     }
-    #sec-1 .heading {
+    #sec-1 .teks .heading {
         text-align: center;
     }
     #sec-2 .heading {
@@ -569,6 +637,9 @@ body {
     }
     #sec-3 .heading {
         text-align: center;
+    }
+    #sec-1 img {
+        margin-top: 0;
     }
     #sec-3 .excess-group {
         justify-content: space-between;

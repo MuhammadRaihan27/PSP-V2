@@ -27,17 +27,51 @@ body {
     gap: 1.5rem;
 }
 
-@media screen and (max-width: 496px) {
+
+
+.engineering .hero-info {
+    width: 50rem !important;
+}
+
+@media screen and (max-width: 910px) {
+    .engineering .hero-info {
+        width: 33rem !important;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .engineering .hero-info {
+        width: 28rem !important;
+    }
+    .engineering .hero-title h1 {
+        font-size: 3rem !important;
+    }
+    .engineering .hero-title p {
+        font-size: 1.2rem !important;
+    }
+}
+
+
+@media screen and (max-width: 460px) {
+    .engineering .hero-info {
+        width: 26rem !important;
+    }
     .engineering .hero-title h1 {
         font-size: 2.8rem !important;
     }
     .engineering .hero-title p {
-        font-size: 1.3rem !important;
+        font-size: 1.1rem !important;
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 423px) {
+    .engineering .hero-info {
+        width: 24rem !important;
+    }
+    .engineering .hero-title h1 {
+        font-size: 2.6rem !important;
+    }
     .engineering .hero-title p {
-        font-size: 1.2rem !important;
+        font-size: 1rem !important;
     }
 }

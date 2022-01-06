@@ -1,5 +1,4 @@
 const IMG = document.querySelector(".navbar-brand img");
-console.log(IMG)
 const dataIMG1 = "/assets/img/logo.png";
 const dataIMG2 = "/assets/img/LOGO2.png";
 

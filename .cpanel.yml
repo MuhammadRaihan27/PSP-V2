@@ -2,5 +2,14 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/u1103005/public_html/
     - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp aboutus.html $DEPLOYPATH
+    - /bin/cp contact.html $DEPLOYPATH
+    - /bin/cp engineeringdesain.html $DEPLOYPATH
+    - /bin/cp engineeringservice.html $DEPLOYPATH
+    - /bin/cp epc.html $DEPLOYPATH
+    - /bin/cp fabrication.html $DEPLOYPATH
+    - /bin/cp operation&maintenance.html $DEPLOYPATH
+    - /bin/cp product.html $DEPLOYPATH
+    - /bin/cp service.html $DEPLOYPATH
     - /bin/cp -R style $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH

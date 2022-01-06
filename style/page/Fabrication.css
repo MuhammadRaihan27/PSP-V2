@@ -25,3 +25,9 @@ body {
 #fabrication .row img {
     width: 100%;
 }
+
+@media screen and (max-width: 496px) {
+    .fabrication .hero-title h1 {
+        font-size: 3rem !important;
+    }
+}

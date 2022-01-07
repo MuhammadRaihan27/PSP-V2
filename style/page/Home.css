@@ -115,7 +115,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(102, 102, 102, 0.53);
+    /* background-color: rgba(159, 159, 159, 0.53); */
 }
 
 .my-swiper {
@@ -141,6 +141,10 @@ body {
 .mySwiper .title {
     color: #fff;
     margin-bottom: 10rem;
+    background-color: #302f2faf;
+    width: max-content;
+    padding: 1.5rem;
+    border-radius: 10px;
 }
 
 .mySwiper .title .heading h1 {
@@ -446,7 +450,6 @@ body {
 /* Col 2 */
 
 #sec-3 .img {
-    object-fit: cover;
     width: 100%;
     height: 100%;
 }
@@ -616,7 +619,11 @@ body {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        color: #fff;
+        margin: 0 auto 10rem auto;
     }
+
+
     .mySwiper .title .heading,
     .mySwiper .title .deskription {
         text-align: center;
@@ -678,6 +685,12 @@ body {
 @media screen and (max-width: 767px) {
     #sec-1 .excess-group {
         margin: 0 0;
+    }
+}
+
+@media screen and (max-width: 613px) {
+     .mySwiper .title {
+        width: 100%;
     }
 }
 
